@@ -1,0 +1,35 @@
+*{
+    color: brown;
+    line-height: 1.2;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: beige;
+    border: 5px solid rgb(0, 200, 255);
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(47, 79, 79, 0.149);
+    font-size: 25px;
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(244, 199, 244);
+}
+
+p{
+    text-indent: 20px;
+}
+
+a{
+    color: #1c3fef;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: burlywood;
+    font-size: 20px;
+}

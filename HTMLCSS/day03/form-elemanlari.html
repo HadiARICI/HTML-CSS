@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elemanları</title>
+</head>
+<body>
+    <h1>Form Elemanları</h1>
+    <form action="user/update" method="post">
+        <label for="ad">Adınız:</label>
+        <input type="text" id="ad">
+        <br><br>
+        <label for="soyad">Soyadınız:</label>
+        <input type="text" id="soyad">
+        <br><br>
+        <label for="yas">Yaşınız:</label>
+        <input type="number" id="yas">
+        <br><br>
+        <label for="eposta">Eposta Adresiniz:</label>
+        <input type="email" id="eposta">
+        <br><br>
+        <label for="sifre">Şifrenizi Belirleyiniz:</label>
+        <input type="password" id="sifre">
+        <br><br>
+        <label>Cinsiyet</label>
+        <br>
+        <label for="erkek">Erkek</label>
+        <input type="radio" id="erkek" name="cinsiyet">
+        <label for="kadin">Kadın</label>
+        <input type="radio" id="kadin" name="cinsiyet">
+        <br><br>
+        <label>Hobileriniz</label>
+        <br>
+        <label for="spor">Spor</label>
+        <input type="checkbox" id="spor">
+        <label for="muzik">Müzik</label>
+        <input type="checkbox" id="muzik">
+        <br><br>
+        <label for="dogumtarihi">Doğum Tarihiniz:</label>
+        <input type="datetime-local" id="dogumtarihi">
+        <br><br>
+        <label for="renk">Sevdiğiniz Renk:</label>
+        <input type="color" id="renk">
+        <br><br>
+        <label for="dosya">CV'nizi Ekleyiniz:</label>
+        <input type="file" id="dosya">
+        <br><br>
+        <label for="dogumyeri">Doğum Yeriniz:</label>
+        <select id="dogumyeri">
+            <option value="01">Seçiniz</option>
+            <option value="02">İzmir</option>
+            <option value="03">İstanbul</option>
+        </select>
+        <br><br>
+        <label for="mesaj">Mesajınız:</label>
+        <textarea id="mesaj" cols="30" rows="5"></textarea>
+        <br><br>
+        <input type="submit" value="Kaydet">
+        <input type="reset" value="Temizle">
+        <input type="button" value="Buton">
+    </form>
+</body>
+</html>
